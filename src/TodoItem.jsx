@@ -1,4 +1,3 @@
-// TodoItem.js
 import React, { useState } from 'react';
 
 const TodoItem = ({ task, editTask, deleteTask }) => {

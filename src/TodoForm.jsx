@@ -9,7 +9,7 @@ const TodoForm = ({ addTask }) => {
 
     if (!title.trim() || !description.trim()) {
 
-      alert('Enter the task!');
+      alert('Enter the Task!');
 
       return;
 
