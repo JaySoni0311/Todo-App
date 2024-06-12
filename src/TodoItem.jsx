@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
+// Handles changes of tasks
 const TodoItem = ({ task, editTask, deleteTask }) => {
   const [isEditing, setIsEditing] = useState(false);
   const [editedTitle, setEditedTitle] = useState(task.title);
@@ -40,6 +41,7 @@ const TodoItem = ({ task, editTask, deleteTask }) => {
           <p>{task.description}</p>
           <button onClick={handleEdit}>Edit</button>
           <button onClick={handleDelete}>Delete</button>
+          <hr />
         </div>
       )}
     </div>

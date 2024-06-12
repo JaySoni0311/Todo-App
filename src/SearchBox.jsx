@@ -8,6 +8,7 @@ const SearchBox = ({ searchTasks }) => {
     searchTasks(e.target.value);
   };
 
+  // Search box 
   return (
     <input
           type="text"

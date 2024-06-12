@@ -19,7 +19,8 @@ button {
   margin: 5px;
   padding: 5px;
 }
-textarea{
+
+textarea {
   position: relative;
   top: 20px;
 }
