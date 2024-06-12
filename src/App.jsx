@@ -50,7 +50,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Todo List</h1>
+      <h1>To-do List</h1>
       
       <TodoForm addTask={addTask} />
         <hr />
