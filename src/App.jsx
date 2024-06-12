@@ -1,4 +1,3 @@
-// App.js
 import React, { useState, useEffect } from 'react';
 import TodoForm from './TodoForm';
 import SearchBox from './SearchBox';
@@ -54,8 +53,11 @@ const App = () => {
       <h1>Todo List</h1>
       
       <TodoForm addTask={addTask} />
+        <hr />
 
       <SearchBox searchTasks={searchTasks}  />
+
+      <hr />
       <TodoList editTask={editTask} tasks={filteredTasks}  deleteTask={deleteTask} />
     </div>
   );
